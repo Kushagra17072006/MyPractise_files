@@ -417,6 +417,113 @@ A B C D E F   output*/
 // else cout<<"the input of number  is incorrect total cannot be small";
     
 
+// int n;
+// cout<<"Enter n: ";
+// cin>>n;
+// for (int i=1; i<=n; i++){
+//     for (int j= 1; j<=i; j++){
+//         cout<<j<<" ";}
+//         for(int k=1; k<=n-i; k++){
+//             cout<<i<<" ";
+//         }
+    
+//     cout<<endl;
+// }
+
+//OR
+//This one is better
+//  int n;
+// cout<<"Enter n: ";
+// cin>>n;
+// for (int i=1; i<=n; i++){
+//     for (int j= 1; j<=n; j++){
+//         cout<<min(i,j)<<" ";}
+        
+//     cout<<endl;
+//     }
+
+
+/*new pattern :)*/
+
+// int n;
+// cout<<"Enter n: ";
+// cin>>n;
+// for (int i=1; i<=n/2; i++){
+//     for (int j= 1; j<=n/2; j++){
+//         cout<<min(i,j)<<" ";}
+//         for(int j=n/2+1; j>=1; j--){
+//             cout<<min(i,j)<<" ";
+//         }
+    
+//     cout<<endl;
+// }
+// for (int i=n/2+1; i>=1; i--){
+//     for (int j= 1; j<=n/2; j++){
+//         cout<<min(i,j)<<" ";}
+//         for(int j=n/2+1; j>=1; j--){
+//             cout<<min(i,j)<<" ";
+//         }
+    
+//     cout<<endl;
+// }
+
+//OR
+
+// int n;
+// cout<<"Enter n: ";
+// cin>>n;
+// for (int i=1; i<=n; i++){
+//     for (int j= 1; j<=n; j++){
+//         if(j>(n/2)+1){
+//             cout<<min(i,n-j+1)<<" ";
+//         }
+//         else if(i>(n/2)+1){
+//             cout<<min(n-i+1,j)<<" ";
+//         }
+//         else cout<<min(i,j)<<" ";}
+    
+//     cout<<endl;
+// }
+
+/*Spiral pattern*/
+// int n;
+// cout<<"Enter n: ";
+// cin>>n;
+// for (int i=1; i<=n; i++){
+//     for (int j= 1; j<=n; j++){
+//         cout<<min(i,j)<<" ";}
+//         for(int j=n-1; j>=1; j--){
+//             cout<<min(i,j)<<" ";
+//         }
+    
+//     cout<<endl;
+// }
+// for (int i=n-1; i>=1; i--){
+//     for (int j= 1; j<=n; j++){
+//         cout<<min(i,j)<<" ";}
+//         for(int j=n-1; j>=1; j--){
+//             cout<<min(i,j)<<" ";
+//         }
+    
+//     cout<<endl;
+// }
+
+//OR
+
+// int n;
+// cout<<"Enter n: ";
+// cin>>n;
+// for (int i=1; i<=2*n-1; i++){
+//     for (int j= 1; j<=2*n-1; j++){
+//         int a=i, b=j;
+//         if(j>n) b= 2*n-j;
+//         if(i>n) a= 2*n-i;
+//         cout<<min(a,b)<<" ";}
+    
+//     cout<<endl;
+// }
+
+
     return 0;
 }
 
