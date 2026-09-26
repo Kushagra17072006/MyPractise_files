@@ -130,17 +130,6 @@ while(x<n){
     x++;
 }
 
-// int x=0, t=n-1, s=0; 
-// while(x<n){
-    
-//     int temp;
-//     mat[x][s]=temp;
-//     mat[x][s]=mat[x][t];
-//     mat[x][t]=temp;
-//     t--;
-//     s++;
-//     x++;
-// }
 
 for(int i=0; i<n; i++){
      for(int j=0 ;j<n; j++){
